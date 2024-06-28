@@ -1,24 +1,24 @@
-Weather API Project
+# Weather API Project
 
 
-Description
+## Description
 
 This Python project utilizes the OpenWeatherMap API to fetch and display weather data for a specified location. The project includes functionalities to retrieve current weather, forecast, and various weather metrics.
 
 
-Features
+# Features
 
 1.Fetch current weather data for a specific city
 2.Retrieve weather forecast for the next 5 days
 3.Display weather metrics such as temperature, humidity, and wind speed
 
 
-Installation
+# nstallation
 
 To install and run this project, follow these steps:
 
 Clone the repository:
-  git clone https://github.com/your-username/weather-api-project.git
+  git clone https://github.com/SwohamKayastha/weather.git
   
 Navigate to the project directory:
   cd weather-api-project
@@ -37,25 +37,26 @@ Create a .env file in the project directory and add your API key:
 
 plaintext
 
-OPENWEATHER_API_KEY=your_api_key_here
-Usage
+API_KEY=your_api_key_here
+
+# Usage
 To use this project, run the main.py script with the desired city name:
 
 
-python main.py --"City Name"
+python main.py -->"City Name"
 Example:
 
-python main.py -- "New York"
+python main.py -- "Kathmandu"
 
 The script will display the current weather and forecast for the specified city.
 
-Example Output
-Data : 40.7127281 & -74.0060152
-Weather : Clear
-JSON Format - main: {'temp': 300.86, 'feels_like': 300.51, 'temp_min': 298.12, 'temp_max': 303.31, 'pressure': 1003, 'humidity': 39}
-Temperature: 27.710000000000036
-Minimum Temperature: 24.970000000000027  &  Maximum Temperature: 30.160000000000025
-Feels like - 27.360000000000014
+Example Output:
+Data : 27.708317 & 85.3205817
+Weather : Clouds
+JSON Format - main: {'temp': 297.34, 'feels_like': 297.98, 'temp_min': 297.34, 'temp_max': 297.34, 'pressure': 1005, 'humidity': 83, 'sea_level': 1005, 'grnd_level': 846}
+Temperature: 24.189999999999998
+Minimum Temperature: 24.189999999999998  &  Maximum Temperature: 24.189999999999998
+Feels like - 24.83000000000004
 
 Contributing
 Contributions are welcome! Please check the contribution guidelines.
