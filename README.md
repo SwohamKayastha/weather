@@ -13,7 +13,7 @@ This Python project utilizes the OpenWeatherMap API to fetch and display weather
 3.Display weather metrics such as temperature, humidity, and wind speed
 
 
-# Istallation
+# Installation
 
 To install and run this project, follow these steps:
 
